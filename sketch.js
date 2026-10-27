@@ -20,8 +20,8 @@ async function setup() {
   createCanvas(innerWidth, innerHeight);
 
   for (let i = 1; i <= 5; i++) {
-    cars[i] = await loadImage(`/media/car${i}.png`);
-    sounds[i] = loadSound(`/media/s${i}.mp3`);
+    cars[i] = await loadImage(`./media/car${i}.png`);
+    sounds[i] = loadSound(`./media/s${i}.mp3`);
   }
 
   for (let i = 0; i < 10; i++) {
